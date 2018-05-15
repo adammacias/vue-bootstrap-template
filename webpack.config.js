@@ -78,7 +78,10 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true
+    overlay: true,
+    watchOptions: {
+      poll: true, // https://github.com/webpack/webpack-dev-server/issues/194
+    }
   },
   performance: {
     hints: false
