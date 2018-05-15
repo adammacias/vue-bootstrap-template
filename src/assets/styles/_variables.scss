@@ -1,37 +1,10 @@
 //
 // Theme Sass variables
 //
-
-//
-// Color system
-//
-$secondary: #e4e1df;
-$primary:   #f77274;
-
-//
-// Body
+// @see http://getbootstrap.com/docs/4.1/getting-started/theming/ for more details.
 //
 
-$body-bg:    white;
-$body-color: #7d7a77;
-
-//
-// Grid containers
-//
-$container-max-widths: (
-  sm: 540px,
-  md: 540px,
-  lg: 720px,
-  xl: 960px
-);
-
-
-//
-// Fonts
-//
-$font-family-sans-serif: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
-$headings-font-weight: 800;
-$headings-color:       #5b5855;
-
-
+// Example how update variables of Bootstrap.
+$body-bg: black;
+$body-color: white;
+$primary: magenta;

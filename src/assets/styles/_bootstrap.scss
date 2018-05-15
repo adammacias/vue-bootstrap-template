@@ -1,14 +1,15 @@
- //
+//
 // Custom components Bootstrap
 //
+// @see http://getbootstrap.com/docs/4.1/getting-started/theming/ for more details.
+//
 
+// Functions, Variables and Mixis (Required)
 @import "../../../node_modules/bootstrap/scss/functions";
 @import "../../../node_modules/bootstrap/scss/variables";
 @import "../../../node_modules/bootstrap/scss/mixins";
 
-$colors: map-remove($colors, "blue", "indigo", "purple", "pink", "red", "orange", "yellow", "green", "teal", "cyan");
-$theme-colors: map-remove($theme-colors, "success", "info", "warning", "danger");
-
+// Layout, Content and Components (Optional)
 @import "../../../node_modules/bootstrap/scss/root";
 @import "../../../node_modules/bootstrap/scss/reboot";
 @import "../../../node_modules/bootstrap/scss/type";
